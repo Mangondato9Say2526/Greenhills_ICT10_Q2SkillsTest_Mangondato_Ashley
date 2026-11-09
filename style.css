@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9e6f5;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px #c5bfd8;
+}
+
+header {
+    background-color: #292442;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+header p {
+    color: #c9c2e5;
+    font-size: 13px;
+}
+
+main {
+    padding: 25px;
+}
+
+.instructions {
+    background-color: #f0edfa;
+    color: #393052;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #292442;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #c9c2dc;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #7562a8;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #7562a8;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #594783;
+}
+
+#result {
+    background-color: #f8f7fc;
+    border: 1px solid #e1dcef;
+    border-radius: 8px;
+    padding: 18px;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #393052;
+}
+
+#result h3 {
+    color: #7562a8;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 11px;
+    padding: 15px;
+    background-color: #f8f7fc;
+}
